@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuite name="Tests.LoginPageTest.LoginPageTest-20201023180807" tests="2" time="28.764" failures="0" errors="0">
+	<testcase classname="Tests.LoginPageTest.LoginPageTest" name="test_l1_login_page_title_check" time="13.892"/>
+	<testcase classname="Tests.LoginPageTest.LoginPageTest" name="test_l2_login_with_valid_data" time="14.872"/>
+	<system-out><![CDATA[]]></system-out>
+	<system-err><![CDATA[]]></system-err>
+</testsuite>
+<?xml version="1.0" ?>
+<testsuite name="Tests.HomePagTest.HomePageTest-20201023180807" tests="3" time="17.629" failures="0" errors="0">
+	<testcase classname="Tests.HomePagTest.HomePageTest" name="test_h1_home_page_title_check" time="11.674"/>
+	<testcase classname="Tests.HomePagTest.HomePageTest" name="test_h2_account_name_check" time="1.240"/>
+	<testcase classname="Tests.HomePagTest.HomePageTest" name="test_h3_marketplace_link_check" time="4.715"/>
+	<system-out><![CDATA[]]></system-out>
+	<system-err><![CDATA[]]></system-err>
+</testsuite>
