@@ -8,6 +8,6 @@ class TestData(object):
     BASE_URL = "https://opensource-demo.orangehrmlive.com/"
     USERNAME = "Admin"
     PASSWORD = "admin123"
-    ACCOUNT_NAME = "Welcome Paul"
+    ACCOUNT_NAME = "Welcome @ggg"
     LOGIN_PAGE_TITLE = "OrangeHRM"
     HOME_PAGE_TITLE = "OrangeHRM"

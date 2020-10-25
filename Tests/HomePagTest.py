@@ -6,6 +6,10 @@ from selenium import webdriver
 from Config.config import TestData
 from Pages.HomePage import HomePage
 from Pages.LoginPage import LoginPage
+from selenium.webdriver.support.events import EventFiringWebDriver
+from selenium.webdriver.support.events import AbstractEventListener
+
+from Tests.conftest import ScreenshotListener
 
 
 @allure.epic("OrangeHRM web Application")
@@ -15,7 +19,8 @@ class HomePageTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.driver = webdriver.Chrome(executable_path=TestData.CHROME_EXECUTABLE_PATH)
+        edriver = webdriver.Chrome(executable_path=TestData.CHROME_EXECUTABLE_PATH)
+        cls.driver = EventFiringWebDriver(edriver, ScreenshotListener())
         cls.driver.maximize_window()
         cls.driver.implicitly_wait(20)
 

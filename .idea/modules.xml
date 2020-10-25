@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../SamplePythonProjects/.idea/SamplePythonProjects.iml" filepath="$PROJECT_DIR$/../SamplePythonProjects/.idea/SamplePythonProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/UnittestFrameworkJenkins.iml" filepath="$PROJECT_DIR$/.idea/UnittestFrameworkJenkins.iml" />
     </modules>
   </component>
