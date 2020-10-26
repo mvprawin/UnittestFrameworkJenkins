@@ -1,4 +1,5 @@
 import os
+import time
 import unittest
 
 from HtmlTestRunner import HTMLTestRunner
@@ -18,8 +19,9 @@ test_suite.addTests([
     unittest.TestLoader().loadTestsFromTestCase(HomePageTest)
 ])
 
+timestr = time.strftime("%Y%m%d-%H%M%S")
 # open the report file
-outfile = open(current_directory + "/Reports/HTMLReport/SeleniumPythonTestSummary.html", "w")
+outfile = open(current_directory + "/Reports/HTMLReport/TestSummary_"+timestr+".html", "w")
 
 # configure HTMLTestRunner options
 runner = HTMLTestRunner.HTMLTestRunner(stream=outfile, title='Test Report', description='Acceptance Tests')

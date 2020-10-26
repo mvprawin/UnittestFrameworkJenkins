@@ -8,7 +8,7 @@ from selenium.webdriver.support.event_firing_webdriver import EventFiringWebDriv
 
 from Config.config import TestData
 from Pages.LoginPage import LoginPage
-from Tests.conftest import ScreenshotListener
+from Tests.BaseTest import ScreenshotListener
 
 
 @allure.epic("OrangeHRM web Application")

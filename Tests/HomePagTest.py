@@ -9,7 +9,7 @@ from Pages.LoginPage import LoginPage
 from selenium.webdriver.support.events import EventFiringWebDriver
 from selenium.webdriver.support.events import AbstractEventListener
 
-from Tests.conftest import ScreenshotListener
+from Tests.BaseTest import ScreenshotListener
 
 
 @allure.epic("OrangeHRM web Application")
